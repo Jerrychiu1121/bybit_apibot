@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "api/bybit_order.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/bybit_order", "dest": "api/bybit_order.py" }
+  ]
+}
